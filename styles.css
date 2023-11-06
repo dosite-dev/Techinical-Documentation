@@ -8,7 +8,7 @@ body{
     min-width: 280px;
     line-height: 1.5;
     color: #403929;
-    background-color: #eae8e8;
+    background-color: white;
 }
 #navbar{
     min-width: 290px;
@@ -28,7 +28,8 @@ body{
     padding: 0;
     overflow-x: hidden;
     overflow-y: auto;
-    height: 80%;
+    height: 100%;
+    line-height: 1.8;
 }
 #navbar li{
     position: relative;
@@ -43,6 +44,7 @@ body{
     margin-bottom: 100px;
     margin-left: 300px;
     padding: 20px;
+    line-height: 2;
 }
 #navbar a{
     display: block;
@@ -66,11 +68,14 @@ section li{
 }
 code{
     display: block;
+    width: auto;
     text-align:left;
     border-radius:5px;
     white-space:pre-line ;
     position:relative;
-    background-color: rgb(200, 198, 198);
+    margin-left: 10px;
+    margin-right: auto;
+    background-color: rgb(237, 233, 233);
 }
    @media only screen and(max-width:815px){
     #navbar ul{
@@ -99,6 +104,9 @@ code{
         width: 100%;
         min-width: 230px;
         padding-left: 10px;
+        margin: 5px;
+        padding: 5px;
+        
 
     }
    }
